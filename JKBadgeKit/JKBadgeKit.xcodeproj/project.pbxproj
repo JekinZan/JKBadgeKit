@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188AEFBF207F018C00A3BF77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFBE207F018C00A3BF77 /* AppDelegate.m */; };
+		188AEFC7207F018F00A3BF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188AEFC6207F018F00A3BF77 /* Assets.xcassets */; };
+		188AEFCA207F018F00A3BF77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AEFC8207F018F00A3BF77 /* LaunchScreen.storyboard */; };
+		188AEFCD207F018F00A3BF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFCC207F018F00A3BF77 /* main.m */; };
+		188AEFED207F01AF00A3BF77 /* UIView+JKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFD8207F01AF00A3BF77 /* UIView+JKBadge.m */; };
+		188AEFEE207F01AF00A3BF77 /* UITabBarItem+JKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFDA207F01AF00A3BF77 /* UITabBarItem+JKBadge.m */; };
+		188AEFEF207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFDB207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.m */; };
+		188AEFF0207F01AF00A3BF77 /* NSObject+JKBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFDD207F01AF00A3BF77 /* NSObject+JKBadgeController.m */; };
+		188AEFF1207F01AF00A3BF77 /* JKBadgeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFE0207F01AF00A3BF77 /* JKBadgeInfo.m */; };
+		188AEFF2207F01AF00A3BF77 /* JKBadgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFE1207F01AF00A3BF77 /* JKBadgeModel.m */; };
+		188AEFF3207F01AF00A3BF77 /* JKBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFE6207F01AF00A3BF77 /* JKBadgeManager.m */; };
+		188AEFF4207F01AF00A3BF77 /* JKBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFE9207F01AF00A3BF77 /* JKBadgeController.m */; };
+		188AEFF5207F01AF00A3BF77 /* NSString+JKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFEC207F01AF00A3BF77 /* NSString+JKBadge.m */; };
+		188AEFFD207F028000A3BF77 /* JKDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFF6207F027F00A3BF77 /* JKDemoViewController.m */; };
+		188AEFFE207F028000A3BF77 /* JKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFF7207F028000A3BF77 /* JKDetailViewController.m */; };
+		188AEFFF207F028000A3BF77 /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEFF9207F028000A3BF77 /* JKViewController.m */; };
+		188AF000207F028000A3BF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AEFFB207F028000A3BF77 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188AEFBA207F018C00A3BF77 /* JKBadgeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKBadgeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AEFBD207F018C00A3BF77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188AEFBE207F018C00A3BF77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188AEFC6207F018F00A3BF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188AEFC9207F018F00A3BF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188AEFCB207F018F00A3BF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188AEFCC207F018F00A3BF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188AEFD5207F01AF00A3BF77 /* UITabBarItem+JKBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+JKBadge.h"; sourceTree = "<group>"; };
+		188AEFD6207F01AF00A3BF77 /* JKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadgeView.h; sourceTree = "<group>"; };
+		188AEFD7207F01AF00A3BF77 /* NSObject+JKBadgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKBadgeController.h"; sourceTree = "<group>"; };
+		188AEFD8207F01AF00A3BF77 /* UIView+JKBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKBadge.m"; sourceTree = "<group>"; };
+		188AEFD9207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JKBadge.h"; sourceTree = "<group>"; };
+		188AEFDA207F01AF00A3BF77 /* UITabBarItem+JKBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+JKBadge.m"; sourceTree = "<group>"; };
+		188AEFDB207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JKBadge.m"; sourceTree = "<group>"; };
+		188AEFDC207F01AF00A3BF77 /* UIView+JKBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKBadge.h"; sourceTree = "<group>"; };
+		188AEFDD207F01AF00A3BF77 /* NSObject+JKBadgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKBadgeController.m"; sourceTree = "<group>"; };
+		188AEFDF207F01AF00A3BF77 /* JKBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadge.h; sourceTree = "<group>"; };
+		188AEFE0207F01AF00A3BF77 /* JKBadgeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBadgeInfo.m; sourceTree = "<group>"; };
+		188AEFE1207F01AF00A3BF77 /* JKBadgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBadgeModel.m; sourceTree = "<group>"; };
+		188AEFE2207F01AF00A3BF77 /* JKBadgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadgeModel.h; sourceTree = "<group>"; };
+		188AEFE3207F01AF00A3BF77 /* JKBadgeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadgeInfo.h; sourceTree = "<group>"; };
+		188AEFE4207F01AF00A3BF77 /* JKBadgeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadgeKit.h; sourceTree = "<group>"; };
+		188AEFE6207F01AF00A3BF77 /* JKBadgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBadgeManager.m; sourceTree = "<group>"; };
+		188AEFE7207F01AF00A3BF77 /* JKBadgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadgeController.h; sourceTree = "<group>"; };
+		188AEFE8207F01AF00A3BF77 /* JKBadgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBadgeManager.h; sourceTree = "<group>"; };
+		188AEFE9207F01AF00A3BF77 /* JKBadgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBadgeController.m; sourceTree = "<group>"; };
+		188AEFEB207F01AF00A3BF77 /* NSString+JKBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKBadge.h"; sourceTree = "<group>"; };
+		188AEFEC207F01AF00A3BF77 /* NSString+JKBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKBadge.m"; sourceTree = "<group>"; };
+		188AEFF6207F027F00A3BF77 /* JKDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDemoViewController.m; sourceTree = "<group>"; };
+		188AEFF7207F028000A3BF77 /* JKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDetailViewController.m; sourceTree = "<group>"; };
+		188AEFF8207F028000A3BF77 /* JKDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDemoViewController.h; sourceTree = "<group>"; };
+		188AEFF9207F028000A3BF77 /* JKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
+		188AEFFA207F028000A3BF77 /* JKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
+		188AEFFB207F028000A3BF77 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		188AEFFC207F028000A3BF77 /* JKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDetailViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188AEFB7207F018C00A3BF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188AEFB1207F018C00A3BF77 = {
+			isa = PBXGroup;
+			children = (
+				188AEFBC207F018C00A3BF77 /* JKBadgeKit */,
+				188AEFBB207F018C00A3BF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188AEFBB207F018C00A3BF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFBA207F018C00A3BF77 /* JKBadgeKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188AEFBC207F018C00A3BF77 /* JKBadgeKit */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFD3207F01AF00A3BF77 /* JKBadgeFramework */,
+				188AEFBD207F018C00A3BF77 /* AppDelegate.h */,
+				188AEFBE207F018C00A3BF77 /* AppDelegate.m */,
+				188AEFF8207F028000A3BF77 /* JKDemoViewController.h */,
+				188AEFF6207F027F00A3BF77 /* JKDemoViewController.m */,
+				188AEFFC207F028000A3BF77 /* JKDetailViewController.h */,
+				188AEFF7207F028000A3BF77 /* JKDetailViewController.m */,
+				188AEFFA207F028000A3BF77 /* JKViewController.h */,
+				188AEFF9207F028000A3BF77 /* JKViewController.m */,
+				188AEFFB207F028000A3BF77 /* Main.storyboard */,
+				188AEFC6207F018F00A3BF77 /* Assets.xcassets */,
+				188AEFC8207F018F00A3BF77 /* LaunchScreen.storyboard */,
+				188AEFCB207F018F00A3BF77 /* Info.plist */,
+				188AEFCC207F018F00A3BF77 /* main.m */,
+			);
+			path = JKBadgeKit;
+			sourceTree = "<group>";
+		};
+		188AEFD3207F01AF00A3BF77 /* JKBadgeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFD4207F01AF00A3BF77 /* BadgeView */,
+				188AEFDE207F01AF00A3BF77 /* JKBadgeModel */,
+				188AEFE4207F01AF00A3BF77 /* JKBadgeKit.h */,
+				188AEFE5207F01AF00A3BF77 /* BadgeController */,
+				188AEFEA207F01AF00A3BF77 /* BadgeCategory */,
+			);
+			path = JKBadgeFramework;
+			sourceTree = "<group>";
+		};
+		188AEFD4207F01AF00A3BF77 /* BadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFD5207F01AF00A3BF77 /* UITabBarItem+JKBadge.h */,
+				188AEFD6207F01AF00A3BF77 /* JKBadgeView.h */,
+				188AEFD7207F01AF00A3BF77 /* NSObject+JKBadgeController.h */,
+				188AEFD8207F01AF00A3BF77 /* UIView+JKBadge.m */,
+				188AEFD9207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.h */,
+				188AEFDA207F01AF00A3BF77 /* UITabBarItem+JKBadge.m */,
+				188AEFDB207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.m */,
+				188AEFDC207F01AF00A3BF77 /* UIView+JKBadge.h */,
+				188AEFDD207F01AF00A3BF77 /* NSObject+JKBadgeController.m */,
+			);
+			path = BadgeView;
+			sourceTree = "<group>";
+		};
+		188AEFDE207F01AF00A3BF77 /* JKBadgeModel */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFDF207F01AF00A3BF77 /* JKBadge.h */,
+				188AEFE0207F01AF00A3BF77 /* JKBadgeInfo.m */,
+				188AEFE1207F01AF00A3BF77 /* JKBadgeModel.m */,
+				188AEFE2207F01AF00A3BF77 /* JKBadgeModel.h */,
+				188AEFE3207F01AF00A3BF77 /* JKBadgeInfo.h */,
+			);
+			path = JKBadgeModel;
+			sourceTree = "<group>";
+		};
+		188AEFE5207F01AF00A3BF77 /* BadgeController */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFE6207F01AF00A3BF77 /* JKBadgeManager.m */,
+				188AEFE7207F01AF00A3BF77 /* JKBadgeController.h */,
+				188AEFE8207F01AF00A3BF77 /* JKBadgeManager.h */,
+				188AEFE9207F01AF00A3BF77 /* JKBadgeController.m */,
+			);
+			path = BadgeController;
+			sourceTree = "<group>";
+		};
+		188AEFEA207F01AF00A3BF77 /* BadgeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				188AEFEB207F01AF00A3BF77 /* NSString+JKBadge.h */,
+				188AEFEC207F01AF00A3BF77 /* NSString+JKBadge.m */,
+			);
+			path = BadgeCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188AEFB9207F018C00A3BF77 /* JKBadgeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188AEFD0207F018F00A3BF77 /* Build configuration list for PBXNativeTarget "JKBadgeKit" */;
+			buildPhases = (
+				188AEFB6207F018C00A3BF77 /* Sources */,
+				188AEFB7207F018C00A3BF77 /* Frameworks */,
+				188AEFB8207F018C00A3BF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKBadgeKit;
+			productName = JKBadgeKit;
+			productReference = 188AEFBA207F018C00A3BF77 /* JKBadgeKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188AEFB2207F018C00A3BF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zhangjie;
+				TargetAttributes = {
+					188AEFB9207F018C00A3BF77 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 188AEFB5207F018C00A3BF77 /* Build configuration list for PBXProject "JKBadgeKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188AEFB1207F018C00A3BF77;
+			productRefGroup = 188AEFBB207F018C00A3BF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188AEFB9207F018C00A3BF77 /* JKBadgeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188AEFB8207F018C00A3BF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188AF000207F028000A3BF77 /* Main.storyboard in Resources */,
+				188AEFCA207F018F00A3BF77 /* LaunchScreen.storyboard in Resources */,
+				188AEFC7207F018F00A3BF77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188AEFB6207F018C00A3BF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188AEFEF207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.m in Sources */,
+				188AEFCD207F018F00A3BF77 /* main.m in Sources */,
+				188AEFEE207F01AF00A3BF77 /* UITabBarItem+JKBadge.m in Sources */,
+				188AEFF5207F01AF00A3BF77 /* NSString+JKBadge.m in Sources */,
+				188AEFF1207F01AF00A3BF77 /* JKBadgeInfo.m in Sources */,
+				188AEFBF207F018C00A3BF77 /* AppDelegate.m in Sources */,
+				188AEFFD207F028000A3BF77 /* JKDemoViewController.m in Sources */,
+				188AEFFF207F028000A3BF77 /* JKViewController.m in Sources */,
+				188AEFFE207F028000A3BF77 /* JKDetailViewController.m in Sources */,
+				188AEFF4207F01AF00A3BF77 /* JKBadgeController.m in Sources */,
+				188AEFF3207F01AF00A3BF77 /* JKBadgeManager.m in Sources */,
+				188AEFF2207F01AF00A3BF77 /* JKBadgeModel.m in Sources */,
+				188AEFF0207F01AF00A3BF77 /* NSObject+JKBadgeController.m in Sources */,
+				188AEFED207F01AF00A3BF77 /* UIView+JKBadge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188AEFC8207F018F00A3BF77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188AEFC9207F018F00A3BF77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188AEFCE207F018F00A3BF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188AEFCF207F018F00A3BF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188AEFD1207F018F00A3BF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM82K4NNN9;
+				INFOPLIST_FILE = JKBadgeKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jekin.JKBadgeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188AEFD2207F018F00A3BF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM82K4NNN9;
+				INFOPLIST_FILE = JKBadgeKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jekin.JKBadgeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188AEFB5207F018C00A3BF77 /* Build configuration list for PBXProject "JKBadgeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AEFCE207F018F00A3BF77 /* Debug */,
+				188AEFCF207F018F00A3BF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188AEFD0207F018F00A3BF77 /* Build configuration list for PBXNativeTarget "JKBadgeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AEFD1207F018F00A3BF77 /* Debug */,
+				188AEFD2207F018F00A3BF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188AEFB2207F018C00A3BF77 /* Project object */;
+}
