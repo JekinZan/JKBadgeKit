@@ -128,13 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				188AEFD5207F01AF00A3BF77 /* UITabBarItem+JKBadge.h */,
+				188AEFDA207F01AF00A3BF77 /* UITabBarItem+JKBadge.m */,
 				188AEFD6207F01AF00A3BF77 /* JKBadgeView.h */,
-				188AEFD7207F01AF00A3BF77 /* NSObject+JKBadgeController.h */,
+				188AEFDC207F01AF00A3BF77 /* UIView+JKBadge.h */,
 				188AEFD8207F01AF00A3BF77 /* UIView+JKBadge.m */,
 				188AEFD9207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.h */,
-				188AEFDA207F01AF00A3BF77 /* UITabBarItem+JKBadge.m */,
 				188AEFDB207F01AF00A3BF77 /* UIBarButtonItem+JKBadge.m */,
-				188AEFDC207F01AF00A3BF77 /* UIView+JKBadge.h */,
+				188AEFD7207F01AF00A3BF77 /* NSObject+JKBadgeController.h */,
 				188AEFDD207F01AF00A3BF77 /* NSObject+JKBadgeController.m */,
 			);
 			path = BadgeView;

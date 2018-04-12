@@ -6,8 +6,7 @@
 //  Copyright © 2018年 zhangjie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface UITabBarItem (JKBadge)
+#import "JKBadgeView.h"
+@interface UITabBarItem (JKBadge)<JKBadgeView>
 
 @end
